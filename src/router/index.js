@@ -11,8 +11,26 @@ const routes = [
     component: HomeView,
     children:[
       {path:"/",name:"homes",component:()=>import("../views/home/home.vue")},
-      {path:"/singer",name:"singer",component:()=>import("../views/singer/singer.vue")},
-      {path:"/disc",name:"disc",component:()=>import("../views/disc/disc.vue")},
+      { path: "/singer", name: "singer", component: () => import("../views/singer/singer.vue") },
+      { path: "/singerDetail/:a",
+       name: "singerDetail",
+       props:true,
+       component: () => import("../views/singer/detail/singerdetail.vue") 
+      },
+      {
+        path: "/disc",
+        name: "disc",
+        component: () => import("../views/disc/disc.vue"),
+        redirect:'/neidi',
+        children: [
+          {path: "/neidi",name: "neidi",component: () => import("../views/disc/children/neidi.vue")},
+          {path: "/gangtai",name: "gangtai",component: () => import("../views/disc/children/gangtai.vue")},
+          {path: "/oumei",name: "oumei",component: () => import("../views/disc/children/oumei.vue")},
+          {path: "/hanguo",name: "hanguo",component: () => import("../views/disc/children/hanguo.vue")},
+          {path: "/riben",name: "riben",component: () => import("../views/disc/children/riben.vue")},
+          {path: "/qita",name: "qita",component: () => import("../views/disc/children/qita.vue")},
+        ]
+      },
       {
         path:"list",
         redirect:{name:"biaosheng"},

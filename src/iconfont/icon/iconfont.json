@@ -1,0 +1,16 @@
+{
+  "id": "3333394",
+  "name": "qq音乐",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8652807",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    }
+  ]
+}
