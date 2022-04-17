@@ -5,7 +5,7 @@ import store from "./store";
 import ElementUi from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 import "./css/reset.css";
-import "@/assets/icon/iconfont.css";
+import "@/assets/home_icon/icon/iconfont.css";
 
 Vue.config.productionTip = false;
 Vue.use(ElementUi);
