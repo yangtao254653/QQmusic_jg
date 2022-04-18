@@ -7,7 +7,6 @@ import "element-ui/lib/theme-chalk/index.css";
 import "./css/reset.css";
 import "@/assets/home_icon/icon/iconfont.css";
 
-
 Vue.config.productionTip = false;
 Vue.use(ElementUi);
 
