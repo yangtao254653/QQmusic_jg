@@ -1,0 +1,37 @@
+{
+  "id": "3315185",
+  "name": "QQ音乐PC端",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577389",
+      "name": "坐标-fill",
+      "font_class": "zuobiaofill",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "8019605",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "14940379",
+      "name": "绿钻石",
+      "font_class": "lvzuanshi",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "19874677",
+      "name": "绿钻签到",
+      "font_class": "lvzuanqiandao",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}
