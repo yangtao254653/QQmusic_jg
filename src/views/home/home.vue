@@ -179,6 +179,8 @@ export default {
       });
       console.log(urls);
       window.open(urls.href, "_blank");
+      window.opener = null;
+      window.open("about:blank","_top").close();
     },
     gettxt(txt) {
       this.xdsf = txt;
